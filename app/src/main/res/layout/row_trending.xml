@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      android:background="@drawable/bg_edittext"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.giphyapp.ui.widget.AspectRatioImageView
+        android:id="@+id/imgTrending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/loading_img"
+        />
+    <!-- android:button="@drawable/checkbox_seelctor"-->
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/imgWhishList"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:button="@null"
+        android:background="@drawable/checkbox_seelctor"
+
+        />
+</RelativeLayout>

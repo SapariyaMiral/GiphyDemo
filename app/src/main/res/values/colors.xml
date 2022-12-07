@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#FF6200EE</color>
+    <color name="primaryColorDark">#FF3700B3</color>
+    <color name="colorAccent">#FF6200EE</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <color name="primaryTextColor">#0A1325</color>
+    <color name="dividerColor">#34384433</color>
+    <color name="iconColor">#0A1325</color>
+    <color name="dark_black">#232323</color>
+    <color name="light_grey">#E9E9E9</color>
+    <color name="hint_grey">#8F8F8F</color>
+    <color name="colorTransparent">#00000000</color>
+    <!--Snack Bar Color-->
+    <color name="colorSnackBarGreen">#4BA712</color>
+    <color name="colorSnackBarRed">#DF0A0A</color>
+    <color name="textColorLightGreen">#7ED321</color>
+    <!--Snack Bar Color-->
+
+
+
+
+</resources>
